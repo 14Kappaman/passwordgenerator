@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+<body>
+    <p>This creates passwords. </p>
+    <label>
+        password length <input type="number" id="length" step="1" min="8" max="128">
+    </label>
+
+    <label>
+        lowercase<input type="checkbox" name="charactertypes" id="lowercase" value="lowercase">    
+    </label>
+    <label>
+        uppercase<input type="checkbox" name="charactertypes" id="uppercase" value="uppercase">    
+    </label>
+    <label>
+        numeric<input type="checkbox" name="charactertypes"  id="numeric" value="numeric">    
+    </label>
+    <label>
+        specialcharacter<input type="checkbox" name="charactertypes" id="specialcharacter" value="specialcharacter">    
+    </label>
+    <button style="background-color: red;" onclick="createpassword()">createpassword</button>
+<div id="outputpassword"></div>
+
+</body> <script src="main.js"></script>
+
+</html>
