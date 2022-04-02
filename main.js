@@ -40,6 +40,11 @@ function createpassword() {
     let length = document.getElementById("length").value ; 
     let charactertypes = getcharactertypes ( );
 
+    if ((length < 8) || (length > 128)){
+        throw new Error("Please enter a password with 8-128 characters.")
+    }
+
+
     let password = "" ;
     for (let i = 0; i < length ; i ++) {
         let charactertype = charactertypes[Math.floor( Math.random() * charactertypes.length)] 
@@ -82,6 +87,7 @@ function getcharactertypes() {
     if (!(lowercase|| uppercase || numeric || specialcharacter )) { 
         throw new Error("please check at least one charactertype")
     }
+
         
     let types = [];
     if (lowercase) { 

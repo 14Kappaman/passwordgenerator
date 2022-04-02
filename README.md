@@ -1,8 +1,8 @@
 # passwordgenerator
 This is a password generator.
 
-Github Repository
-https://github.com/14Kappaman/passwordgenerator
+![Screenshot](./passwordgeneratorpic.png)
 
-Deployed Application
-https://14kappaman.github.io/passwordgenerator/
+ https://14kappaman.github.io/passwordgenerator/
+ 
+ https://github.com/14Kappaman/passwordgenerator
